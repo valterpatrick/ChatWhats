@@ -8,6 +8,9 @@
   Caso queira Contribuir (PIX):
   08412248627
 
+  GitHub:
+  https://github.com/valterpatrick/ChatWhats
+
   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
   Como funciona:
@@ -231,28 +234,27 @@ begin
   p.Top := 2000000000; // Maior número possível para as mensagens sempre ficarem por último
 
   h := 5;
-  AddText(p, ANameWhoSendMessage, [fsBold], alTop, WhoSend, False, h);
+  AddText(p, ANameWhoSendMessage, [fsBold], alTop, WhoSend, False, h); // Cabeçalho, nome do usuário
 
-  if AMessage.Trim <> '' then
+  if (AMessage.Trim <> '') then // Quadrado desenhado na tela
   begin
-    // Quadrado desenhado na tela
     s := TShape.Create(p);
     s.Parent := p;
     s.Brush.Color := Color;
     s.Align := alClient;
     s.Shape := stRoundRect;
-    AddText(p, AMessage, [], alClient, WhoSend, True, h);
+    AddText(p, AMessage, [], alClient, WhoSend, True, h); // Mensagem
   end;
 
   if AAttachmentType <> '' then // arquivo
   begin
     if isImage then
-      LoadImage(p, h)
+      LoadImage(p, h) // Imagem
     else
-      AddText(p, 'Anexo tipo: ' + AAttachmentType, [TFontStyle.fsUnderline], alBottom, WhoSend, False, h);
+      AddText(p, 'Anexo Tipo: "' + AAttachmentType + '" - Arquivo: "' + AAttachmentFile + '"', [TFontStyle.fsUnderline], alBottom, WhoSend, True, h); // Mensagem Arquivo Anexado
   end;
 
-  AddText(p, FormatDateTime('dd/mm/yyyy hh:nn:ss', ATimeStamp), [fsItalic], alBottom, WhoSend, False, h);
+  AddText(p, FormatDateTime('dd/mm/yyyy hh:nn:ss', ATimeStamp), [fsItalic], alBottom, WhoSend, False, h); // Rodapé, Data/hora
   p.Height := h + 18;
 
   if WhereDisplay is TScrollBox then
