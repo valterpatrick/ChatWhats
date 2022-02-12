@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/10/29 10:59:38.000.449,=D:\Belizario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/10 15:59:55.000.681,=D:\Belizario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/10 16:04:17.000.212,=D:\Belizario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/27 21:08:59.000.130,=D:\Belizario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/01 10:09:37.000.112,=D:\Belizario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/12 13:49:56.300,=D:\Belizario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/12 13:50:42.812,D:\Dev\Comp\ChatWhats\uFrmPrincipal.pas=D:\Belizario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/12 13:50:42.812,D:\Dev\Comp\ChatWhats\uFrmPrincipal.dfm=D:\Belizario\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/02/12 13:50:51.873,D:\Dev\Comp\ChatWhats\ChatWhatsDemo.dproj=D:\Belizario\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/02/12 13:51:01.663,=D:\Dev\Comp\ChatWhats\uChatWhats.pas</Transaction>
+  </Transactions>
+</BorlandProject>
