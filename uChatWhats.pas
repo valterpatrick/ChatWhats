@@ -6,7 +6,7 @@
   valterpatrick@hotmail.com
 
   Caso queira Contribuir (PIX):
-  08412248627
+  valterpatrick@hotmail.com
 
   GitHub:
   https://github.com/valterpatrick/ChatWhats
